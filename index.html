@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="side-bar">
+            <div class="nav">
+                <ul style="list-style: none; padding: 0;">
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="search hower">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="http://">Search</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="lib">
+                <ul style="list-style: none; padding: 0;">
+                    <li class="hower">
+                        <img src="Assets/library_icon.png" alt="">
+                        <a href="">Your Library</a>
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-plus hower"></i>
+                        <i class="fa-solid fa-arrow-right hower"></i>                     
+                    </li>
+                </ul>
+                <div class="libBox">
+                    <p class="p1">Create your first Playlist</p>
+                    <p class="p2">It's easy, we'll help you </p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="libBox">
+                    <p class="p1">Let's find some podcast to folllow</p>
+                    <p class="p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browese podcasts</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-contain">
+            <div class="mnav">
+                <div class="l">
+                    <img src="Assets/backward_icon.png" alt="" class="hower">
+                    <img src="Assets/forward_icon.png" class="hide hower">
+                </div> 
+                <div class="r">
+                    <button class="badge ritem hide">Explore Premimum</button>
+                    <button class="badge ritem" style="background-color: black; color: white;">
+                        <i class="fa-regular fa-circle-down "></i>
+                        Install App
+                    </button>
+                    <i class="fa-regular fa-user ritem"></i> 
+                </div>          
+            </div>
+            <div class="cards">
+                <h2>Recently played</h2>
+                <div class="c-container">
+                    <div class="card">
+                        <img src="Assets/card1img.jpeg" class="c-img">
+                        <P class="p1">
+                            Top 50-Global
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="c-container">
+                    <div class="card">
+                        <img src="Assets/card2img.jpeg" class="c-img">
+                        <P class="p1">
+                            Mahiye jinna sohna
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card3img.jpeg" class="c-img">
+                        <P class="p1">
+                            Mere pass tum ho
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card4img.jpeg" class="c-img">
+                        <P class="p1">
+                            NAA Ready
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="c-container">
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" class="c-img">
+                        <P class="p1">
+                            Top Song global
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card6img.jpeg" class="c-img">
+                        <P class="p1">
+                            Top Song India
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card1img.jpeg" class="c-img">
+                        <P class="p1">
+                            Top 50-Global
+                        </P>
+                        <p class="p2" style="opacity: 0.5;">    
+                            Your daily update of the most played tracks...
+                        </P>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="rside">
+                <img src="./Assets/card4img.jpeg" alt="" class="crside">
+                <p class="mtext crside" >
+                    Daylight <br>
+                    David Kushner 
+                </p>
+                <i class="fa-regular fa-heart crside hower"></i>
+                <i class="fa-solid fa-bars crside hower"></i>
+            </div>
+            <div class="midle">
+                <div class="icons">
+                    <img src="/Assets/player_icon1.png" alt="" class="hower">
+                    <img src="/Assets/player_icon2.png" alt="" class="hower">
+                    <img src="/Assets/player_icon3.png" alt="" style="height: 2rem; width: 2rem;">
+                    <img src="/Assets/player_icon4.png" alt="" class="hower">
+                    <img src="/Assets/player_icon5.png" alt="" class="hower">
+                </div>
+                <div class="progress-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" name="" id="" step="1" class="timeline">
+                    <span class="current-time">03:40</span>
+                </div>
+            </div>
+            <div class="lside">
+                <i class="fa-solid fa-file-audio lside-icon hower"></i>                
+                <i class="fa-solid fa-microphone lside-icon hower"></i>                
+                <i class="fa-solid fa-headphones-simple lside-icon hower"></i>
+                <i class="fa-solid fa-sliders lside-icon hower"></i>
+                <i class="fa-solid fa-volume-high lside-icon "></i>
+                <input type="range" name="" id="" step="1" class="timeline" style="width: 20%; "> 
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
