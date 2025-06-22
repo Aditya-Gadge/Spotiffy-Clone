@@ -2,7 +2,7 @@
 
 A simple static **Spotify-inspired UI clone** built using HTML and CSS. This project mimics the look and feel of the Spotify web app, showcasing modern layout, cards, and a mock music player.
 
-##🌐 Live Demo
+## 🌐 Live Demo
 👉 [Click here to view the site](https://spotiffy-clone.onrender.com/)
 
 ## 📂 Project Structure
